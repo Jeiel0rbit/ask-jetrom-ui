@@ -381,7 +381,7 @@ try {
 
     // Mensagem mais amigável para "Failed to fetch"
     if (err instanceof TypeError && err.message === 'Failed to fetch') {
-        displayMessage = "Erro de conexão: Não foi possível alcançar o servidor. Verifique sua conexão com a internet ou tente novamente mais tarde.";
+        displayMessage = "Suas consultas, chegaram ao fim. Tente novamente após 1 hora.";
     } else if (err instanceof TypeError) {
         displayMessage = "Erro de rede: " + err.message;
     }
