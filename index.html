@@ -380,11 +380,11 @@ try {
     let displayMessage = "Erro: " + err.message;
 
     // Mensagem mais amigável para "Failed to fetch"
-    if (err instanceof TypeError && err.message === 'Failed to fetch') {
-        displayMessage = "Suas consultas, chegaram ao fim. Tente novamente após 1 hora.";
-    } else if (err instanceof TypeError) {
-        displayMessage = "Erro de rede: " + err.message;
-    }
+if (err instanceof TypeError && (err.message === 'Failed to fetch' || err.message.includes('NetworkError'))) {
+    displayMessage = "Suas consultas, chegaram ao fim. Tente novamente após 1 hora.";
+} else if (err instanceof TypeError) {
+    displayMessage = "Erro de rede: " + err.message;
+}
 
     resposta.textContent = displayMessage;
     console.error("Erro na requisição:", err); // Log o objeto de erro completo para depuração
