@@ -1,7 +1,7 @@
 {
   "name": "Ask Jetrom",
   "short_name": "AskJetrom",
-  "start_url": "/index.html",
+  "start_url": "/ask-jetrom-ui/index.html",
   "display": "standalone",
   "background_color": "#f8f9fa",
   "theme_color": "#4285f4",
