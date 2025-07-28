@@ -1,0 +1,21 @@
+{
+  "name": "Ask Jetrom",
+  "short_name": "AskJetrom",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#f8f9fa",
+  "theme_color": "#4285f4",
+  "description": "Ask me anything.",
+  "icons": [
+    {
+      "src": "ask-jetrom.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "ask-jetrom.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
