@@ -1,7 +1,8 @@
 {
   "name": "Ask Jetrom",
   "short_name": "AskJetrom",
-  "start_url": "https://jeielmiranda.is-a.dev/ask-jetrom-ui/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#f8f9fa",
   "theme_color": "#4285f4",
